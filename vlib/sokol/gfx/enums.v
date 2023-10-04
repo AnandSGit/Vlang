@@ -37,6 +37,7 @@ pub enum PixelFormat {
 	rg16si
 	rg16f
 	rgba8
+	srgb8a8
 	rgba8sn
 	rgba8ui
 	rgba8si
