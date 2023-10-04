@@ -2,12 +2,12 @@ module gfx
 
 pub enum Backend {
 	glcore33
-	gles2
 	gles3
 	d3d11
 	metal_ios
 	metal_macos
 	metal_simulator
+	wpgu
 	dummy
 }
 
