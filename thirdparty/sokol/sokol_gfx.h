@@ -12053,10 +12053,10 @@ _SOKOL_PRIVATE WGPUBufferUsageFlags _sg_wgpu_buffer_usage(sg_buffer_type t, sg_u
 
 _SOKOL_PRIVATE WGPULoadOp _sg_wgpu_load_op(sg_action a) {
     switch (a) {
-        case SG_ACTION_CLEAR:
-        case SG_ACTION_DONTCARE:
+        case SG_LOADACTION_CLEAR:
+        case SG_LOADACTION_DONTCARE:
             return WGPULoadOp_Clear;
-        case SG_ACTION_LOAD:
+        case SG_LOADACTION_LOAD:
             return WGPULoadOp_Load;
         default:
             SOKOL_UNREACHABLE;
